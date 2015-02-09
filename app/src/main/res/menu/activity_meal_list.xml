@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_title"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/menu_title"/>
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="90"
+        android:icon="@drawable/ic_action_refresh"
+        app:showAsAction="never"
+        android:title="@string/action_refresh">
+    </item>
+    <item
+        android:id="@+id/action_favorites"
+        android:orderInCategory="80"
+        android:icon="@drawable/ic_action_favorite"
+        app:showAsAction="never"
+        android:title="@string/action_favorite">
+    </item>
+    <item
+        android:id="@+id/action_new"
+        android:orderInCategory="70"
+        android:icon="@drawable/ic_action_new"
+        app:showAsAction="never"
+        android:title="@string/action_new">
+    </item>
+    <item
+        android:id="@+id/menuLogout"
+        android:orderInCategory="50"
+        android:title="Logout">
+    </item>
+</menu>
